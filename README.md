@@ -1,10 +1,10 @@
-📘 Research Assistant – Spring Boot + Gemini AI
+## 📘 Research Assistant – Spring Boot + Gemini AI
 A lightweight and intelligent Research Assistant API built with Spring Boot that integrates with Google Gemini AI to perform powerful text-processing tasks such as:
 🔍 Summarizing content
 🤖 Generating AI-backed research insights
 This project exposes a REST endpoint that accepts user input, sends a structured prompt to Gemini API, and returns clean AI-generated output.
 
-🚀 Features
+## 🚀 Features
 ✔ Spring Boot 3 / Java 17+
 ✔ WebClient for non-blocking HTTP calls
 ✔ Configurable Gemini API key
@@ -12,20 +12,7 @@ This project exposes a REST endpoint that accepts user input, sends a structured
 ✔ Simple and modular Controller + Service design
 ✔ Clean prompt-based request handling
 
-📂 Project Structure
-src/
- ├── main/
- │   ├── java/com/research/assistant/
- │   │   ├── ResearchAssistantApplication.java
- │   │   ├── ResearchController.java
- │   │   ├── ResearchService.java
- │   │   ├── ResearchRequest.java
- │   │   └── GeminiResponse.java
- │   └── resources/
- │       └── application.properties
- └── test/
-
- ⚙️ Setup & Installation
+## ⚙️ Setup & Installation
 1. Clone the Repository
 git clone https://github.com/your-username/research-assistant.git
 cd research-assistant
@@ -45,7 +32,7 @@ mvn spring-boot:run
 The server will start on:
 http://localhost:9090
 
-🔌 API Usage
+## 🔌API Usage
 POST /api/research/process
 
 Send a JSON body like:
@@ -55,16 +42,13 @@ Send a JSON body like:
   "content": "Artificial Intelligence is transforming industries..."
 }
 
-🛠 Tech Stack
-## Java 17+
-## Spring Boot 3+
-## Spring WebFlux
-## WebClient
-## Jackson Databind
-## Maven
+## 🛠 Tech Stack
+Java 17+
+Spring Boot 3+
+Spring WebFlux
+WebClient
+Jackson Databind
+Maven
 
-🤝 Contributing
-Feel free to open issues, submit pull requests, or suggest improvements!
-
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
